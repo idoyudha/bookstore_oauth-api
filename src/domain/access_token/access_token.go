@@ -1,3 +1,5 @@
+// domain definition
+
 package access_token
 
 import (
