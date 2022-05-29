@@ -1,6 +1,7 @@
 package app
 
 import (
+	"bookstore_oauth-api/src/clients/cassandra"
 	"bookstore_oauth-api/src/domain/access_token"
 	"bookstore_oauth-api/src/http"
 	"bookstore_oauth-api/src/repository/db"
@@ -11,6 +12,11 @@ import (
 var router = gin.Default()
 
 func StartApplication() {
+	session, dbErr := cassandra.GetSession()
+	if dbErr != nil {
+		panic(dbErr)
+	}
+	session.Close()
 	// Create handler with relying to the token service
 	tokenService := access_token.NewService(db.NewRepository())
 	tokenHandler := http.NewHandler(tokenService)
