@@ -26,6 +26,8 @@ github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed h1:5upAirOpQc
 github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed/go.mod h1:tMWxXQ9wFIaZeTI9F+hmhFiGpFmhOHzyShyFUhRm0H4=
 github.com/idoyudha/bookstore_utils-go v0.0.0-20220617015328-8e7e1e18163f h1:M4BNVyDLBQrlAE6Wfdz6t3cP3klSaO6Fzi4fNp8kgZQ=
 github.com/idoyudha/bookstore_utils-go v0.0.0-20220617015328-8e7e1e18163f/go.mod h1:Fmrn43vJA2QiZB9U/zrPdwsEdF/zEaJMKxSV+KNz+gA=
+github.com/idoyudha/bookstore_utils-go v0.0.0-20220617095337-67d13a91e9c2 h1:UNG1jo34as40y5dtIuJsKMaUYfFBNILyCpU0kSIX3xg=
+github.com/idoyudha/bookstore_utils-go v0.0.0-20220617095337-67d13a91e9c2/go.mod h1:Fmrn43vJA2QiZB9U/zrPdwsEdF/zEaJMKxSV+KNz+gA=
 github.com/json-iterator/go v1.1.9 h1:9yzud/Ht36ygwatGx56VwCZtlI/2AD15T1X2sjSuGns=
 github.com/json-iterator/go v1.1.9/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
